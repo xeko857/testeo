@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba MDTC</title>
+  <link rel="shortcut icon" href="../favicon.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="../assets/images/logofacebook_225x225.jpg" alt="logofacebook_225x225"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-center justify-content-md-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./presupuesto.html">Presupuesto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/images/viaje1_5000x3619.jpg" class="d-block w-100 img-fluid image1" alt="viaje1_5000x3619">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/viaje2_7360x4912.jpg" class="d-block w-100 img-fluid image1" alt="viaje2_7360x4912">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/viaje3_4288x2848.jpg" class="d-block w-100 img-fluid image1" alt="viaje3_4288x2848">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <div class="container-fluid">
+    <h2 class="d-flex justify-content-center my-4 fw-bold">FORMULARIO</h2>
+    <form class="row d-flex flex-column justify-content-center align-items-center" action="#">
+    <div class="col-12 col-md-7 mb-2">
+      <label class="form-label fw-bold" for="nombre">Nombre</label>
+      <input class="form-control text-center" type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required>
+    </div>
+    <div class="col-12 col-md-7 mb-2">
+      <label class="form-label fw-bold" for="apellido">Apellido</label>
+      <input class="form-control text-center" type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required>
+    </div>
+    <div class="col-12 col-md-7 mb-2">
+      <label class="form-label fw-bold" for="telefono">Telefono</label>
+      <input class="form-control text-center" type="tel" name="telefono" id="telefono" placeholder="Escriba su numero de telefono" required>
+    </div>
+    <div class="col-12 col-md-7 mb-2">
+      <label class="form-label fw-bold" for="email">Email</label>
+      <input class="form-control text-center" type="email" name="email" id="email" placeholder="Escriba su correo electronico" required>
+    </div>
+    <div class="col-12 col-md-7 mb-4">
+      <label class="form-label fw-bold" for="direccion">Dirección</label>
+      <input class="form-control text-center" type="text" name="direccion" id="direccion" placeholder="Escriba su dirección" required>
+    </div>
+    <div class="col-12 col-md-7 mb-4 d-flex justify-content-evenly">
+      <button class="btn btn-primary" type="submit">Enviar</button>
+      <button class="btn btn-warning" type="reset">Borrar</button>
+
+    </div>
+    </form>
+  </div>
+
+  <footer class="row footer footer-dark bg-dark">
+  <div class="col-12 col-md-6 col-lg-3 text-white d-flex flex-column justify-content-center align-items-center my-4">
+    <h4>VIAJES MORCI</h4> 
+    <p>Avenida gran via 42 de Madrid</p>
+    <p>Horario: 10:00-20:00</p>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3 text-white d-flex flex-column justify-content-center align-items-center my-4">
+    <h4>VIAJES</h4>
+    <div><a class="text-white text-decoration-none" href="#">Indonesia</a></div>
+    <div><a class="text-white text-decoration-none" href="#">New York</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Brasil</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Colombia</a></div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3 text-white d-flex flex-column justify-content-center align-items-center my-4">
+    <h4>PRODUCTOS</h4>
+    <div><a class="text-white text-decoration-none" href="#">Top ventas</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Ofertas</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Bonos</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Seguros</a></div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3 text-white d-flex flex-column justify-content-center align-items-center my-4">
+    <h4>CONDICIONES</h4>
+    <div><a class="text-white text-decoration-none" href="#">Aviso Legal</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Terminos y condiciones</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Politica de privacidad</a></div>
+    <div><a class="text-white text-decoration-none" href="#">Copyright</a></div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
